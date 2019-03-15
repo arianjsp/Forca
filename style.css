@@ -1,0 +1,13 @@
+.letra {
+    width: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    display: none;
+}
+.letraEscolhida{
+    width: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+}

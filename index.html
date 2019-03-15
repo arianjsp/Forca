@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <button onclick="iniciar()">Nova Palavra</button>
+    </div>
+    <div id="divPalavra" class="divDisplay">
+        <h1>A palavra a ser descoberta fica aqui</h1>
+        <input type="text" id="letra0" class="letra" maxlength="1">
+        <input type="text" id="letra1" class="letra" maxlength="1">
+        <input type="text" id="letra2" class="letra" maxlength="1">
+        <input type="text" id="letra3" class="letra" maxlength="1">
+        <input type="text" id="letra4" class="letra" maxlength="1">
+        <input type="text" id="letra5" class="letra" maxlength="1">
+        <input type="text" id="letra6" class="letra" maxlength="1">
+        <input type="text" id="letra7" class="letra" maxlength="1">
+        <input type="text" id="letra8" class="letra" maxlength="1">
+        <input type="text" id="letra9" class="letra" maxlength="1">
+        <input type="text" id="letra10" class="letra" maxlength="1">
+        <input type="text" id="letra11" class="letra" maxlength="1">
+        <input type="text" id="letra12" class="letra" maxlength="1">
+        <input type="text" id="letra13" class="letra" maxlength="1">
+        <input type="text" id="letra14" class="letra" maxlength="1">
+    </div>
+    <div>
+        <input type="text" maxlength="1" id="letraEscolhida" class="letraEscolhida">
+        <button onclick="testarLetra()">Tem essa letra?</button>
+        <button onclick="dica()">Dica</button>
+        <p id="letrasErradas">As letras erradas ficam aqui</p>
+        <p id="divMsg">Se perdeu ou se ganhou</p>
+    </div>
+    <div>
+        <!--<h1>O boneco deve aparecer aqui</h1>-->
+        <img src="cabeca.png" alt="" id="cabeca">
+        <img src="bracoE.png" alt="" id="bracoE">
+        <img src="bracoD.png" alt="" id="bracoD">
+        <img src="tronco.png" alt="" id="tronco">
+        <img src="pernaE.png" alt="" id="pernaE">
+        <img src="pernaD.png" alt="" id="pernaD">
+        <img src="cabeca2.png" alt="" id="cabeca2">
+    </div>
+</body>
+</html>
